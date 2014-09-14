@@ -1,83 +1,113 @@
-		main {
-                width: 980px;
-                margin: 0px auto;
-            } /** SET MAIN WIDTH AND MARGIN **/
+html { 
+	background-color:#000;
+}
 
-            header {
-                width: 100%;
-                clear: both;
-            } /** SET HEADER WIDTH **/
+
+main {
+	width: 980px;
+    margin: 0px auto;
+} /** SET MAIN WIDTH AND MARGIN **/
+
+header {
+	width: 100%;
+	clear: both;
+	background-color: #FFFFFF;
+} /** SET HEADER WIDTH **/
             
-            header h1.site-title { 
-                text-transform: uppercase;
-                margin: 5px;
-                font-size: 36px;
-        	} /** SET SITE TITLE **/
+header h1.site-title { 
+	text-transform: uppercase;
+    margin: 5px;
+	font-size: 36px;
+} /** SET SITE TITLE **/
 
-            p {
-                text-indent: 20px;
-            } /** SET P INDENT **/
+li { 
+	list-style-type: none;
+}
 
-            article {
-                float: left;
-                margin: 5px;
-            } /** ARTICLE FLOAT AND MARGIN **/
+p {
+	text-indent: 20px;
+} /** SET P INDENT **/
+
+section {
+	background-color: #FFFFFF;
+}
+
+.intro { 
+	background-color: #FFFFFF;
+}
+article {
+	float: left;
+    margin: 5px;
+	background-color: #FFFFFF;
+} /** ARTICLE FLOAT AND MARGIN **/
         	
-        	a {
-                text-decoration: none;
-                font-style: italic;
-            } /** SET A FONT STYLE **/
+a {
+	text-decoration: none;
+	font-style: italic;
+} /** SET A FONT STYLE **/
 
-            a:hover {
-                font-weight: bold;
-            } /** SET HOVER FOR A **/
              
-         	figure img {
-                width: 100%;
-       		}
+figure img {
+    width: 100%;
+}
 
-        figure {
-            width: 200px;
-            height: auto;
-            margin: 5px;
-            padding: 5px;
-            background: #eee;
-        } /** SET FIGURE **/
+figure {
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    background: #eee;
+} /** SET FIGURE **/
 
-        figure.left {
-            float: left;
-        } /** SET FIGURE LEFT **/
+figure.left {
+    float: left;
+} /** SET FIGURE LEFT **/
     	
-    	figure.right {
-            float: right;
-        } /** SET FIGURE RIGHT **/
+figure.right {
+    float: right;
+} /** SET FIGURE RIGHT **/
 
-        aside {
-            width: 300px;
-            height: auto;
-            float: left;
-            margin: 15px;
-            background: #eee;
-        } /** SET THE ASIDE **/
+aside {
+    width: 300px;
+    float: left;
+    margin: 15px;
+    background: #eee;
+} /** SET THE ASIDE **/
 
-        blockquote {
-            width: 50%;
-            margin: 15;
-            float: right;
-            text-align: left;
-            background: #ccc;
-            padding: 15px;
-        } /** STYLING FOR BLOCKQUOTE **/
+blockquote {
+    width: 50%;
+    margin: 15px;
+    float: right;
+    text-align: left;
+    background: #ccc;
+    padding: 15px;
+	border: medium;
+	
+} /** STYLING FOR BLOCKQUOTE **/
 
-        blockquote::before {
-            content: '"';
-            font-size: 38px;
-            float: left;
-            margin-right: 35px;
-        } /** SET THE BEFORE BLOCKQUOTE **/
+blockquote::before {
+	content: '"';
+    font-size: 38px;
+    float: left;
+    margin-right: 35px;
+} /** SET THE BEFORE BLOCKQUOTE **/
 
-    footer {
-            width: 100%;
-        height: auto;
-        clear: both;
-    } /** FOOTER WIDTH, HEIGHT AND CLEAR **/
+footer {
+	width: 100%;
+    clear: both;
+} /** FOOTER WIDTH, HEIGHT AND CLEAR **/
+	
+a:link {
+	color: #000FFF;
+}
+		
+a:visited { 
+	color: #000FFF;
+}
+		
+a:hover {
+	color: #FF0000;
+	text-transform: uppercase;
+}
+a:active {
+	color: #0F0;
+}
