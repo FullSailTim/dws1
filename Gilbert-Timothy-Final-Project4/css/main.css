@@ -1,0 +1,157 @@
+html { 
+	font-size: 1em;
+	color: #FFF;
+	background-image: url(../img/bg2.gif);
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.wrapper { 
+	width: 100%;
+}
+
+.sidebar {
+	float: left;
+	background-image: url(../img/background.gif);
+	background-repeat:repeat;
+}
+
+.main {
+	width: 85%;
+    margin: 0px auto;
+	float: right;
+} 
+            
+.title { 
+	text-transform: uppercase;
+	font-size: 36px;
+} 
+
+li { 
+	list-style-type: none;
+}
+
+p {
+	text-indent: 20px;
+} 
+
+article {
+    margin: 5px;
+} 
+        	
+a {
+	text-decoration: none;
+	font-style: italic;
+} 
+	
+a:link {
+	color: #000FFF;
+}
+		
+a:visited { 
+	color: #000FFF;
+}
+		
+a:hover {
+	color: #FF0000;
+	text-transform: uppercase;
+}
+a:active {
+	color: #0F0;
+}
+             
+figure img {
+    width: 100%;
+}
+
+figure {
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    background: #b4ddb4; /* Old browsers */
+	background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4ddb4), color-stop(17%,#83c783), color-stop(33%,#52b152), color-stop(67%,#008a00), color-stop(83%,#005700), color-stop(100%,#002400)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+} /** SET FIGURE **/
+
+figure.left {
+    float: left;
+} /** SET FIGURE LEFT **/
+    	
+figure.right {
+    float: right;
+} /** SET FIGURE RIGHT **/
+
+aside {
+    width: 10%;
+    margin: 15px;
+} /** SET THE ASIDE **/
+
+blockquote {
+    width: 50%;
+    margin: 15px;
+    float: right;
+    text-align: left;
+    background: #ccc;
+    padding: 15px;
+	border: medium;
+	
+} /** STYLING FOR BLOCKQUOTE **/
+
+blockquote::before {
+	content: '"';
+    font-size: 38px;
+    float: left;
+    margin-right: 35px;
+} /** SET THE BEFORE BLOCKQUOTE **/
+
+footer {
+	width: 100%;
+    clear: both;
+} /** FOOTER WIDTH, HEIGHT AND CLEAR **/
+
+/* TABLE CSS */
+.thetable {
+	width: 100%;
+	padding: 5px;
+	letter-spacing: 1px;
+	font-size: 1em;
+	border-style: solid;
+	border-width: 5px;
+	text-align: center;
+	background-color: #000;
+	border-collapse: collapse;
+}
+
+.thetable:hover {
+	text-transform: uppercase;
+}
+
+/* FORM CSS */
+.theform {
+	padding: 5px;
+	margin: 0 auto;
+	font-size: 1em;
+	color: #fff;
+	border-style: solid;
+	border-width: 5px;
+	text-align: center;
+	background-color: #000;
+}
+
+.theform label { 
+	float: left;
+	width: 25%;	
+}
+
+.theform input:hover{
+	background-color: #ff0000;
+}
+
+.theform input:focus {
+	background-color: #ffff00;
+}
