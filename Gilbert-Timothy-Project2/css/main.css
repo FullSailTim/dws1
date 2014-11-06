@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body { 
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+/* Header Styles */
+
+.title { 
+	color: rgba(255,255,255,0.6);
+	line-height: 20px;
+	text-align: center;
+	text-shadow: 2px 2px #0F0;
+}
+
+/* Navigation */
+
+aside {
+	text-align: center;
+	margin: 0 auto;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+aside ul li { 
+	display: inline;
+}
+
+a:link {
+	color: #0f0;
+}
+
+a:hover {
+	text-transform: uppercase;
+}
+
+a:visited {
+	color: #0C0;
+}
+
+a:active {
+	text-transform: uppercase;
+}
+
+
+/* Content Styles */
+
+main { 
+	width: 80%;
+	margin: 0 auto;
+}
+
+article { 
+	height: auto;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #0f0;
+	margin-bottom: 25px;
+}
+
+figure img {
+	height: 300px;	
+}
+	
+	
+
