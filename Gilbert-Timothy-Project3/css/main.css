@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { 
+	height: 100%;
+}
+
+body { 
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+/* Header Styles */
+
+.title { 
+	color: rgba(255,255,255,0.6);
+	line-height: 20px;
+	text-align: center;
+	text-shadow: 2px 2px #0F0;
+}
+
+/* Navigation */
+
+.navbar { 
+	float: left;
+	width: 15%;
+	height: 100%;
+	margin: 0;
+	background-image: url(../img/battlefront.png);
+	background-repeat:no-repeat;
+	background-position: center;
+}
+
+aside {
+	text-align: center;
+	margin: 0 auto;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+
+a:link {
+	color: #0f0;
+}
+
+a:hover {
+	text-transform: uppercase;
+}
+
+a:visited {
+	color: #0C0;
+}
+
+a:active {
+	text-transform: uppercase;
+}
+
+
+/* Content Styles */
+
+main { 
+	float: left;
+	clear: both;
+	background-image: url('../img/presence.png');
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.content { 
+	width: 75%;
+	float: left;
+}
+
+article { 
+	height: auto;
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #0f0;
+	margin-bottom: 25px;
+	background: #b4e391; /* Old browsers */
+	background: -moz-linear-gradient(top, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4e391), color-stop(50%,#61c419), color-stop(100%,#b4e391)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b4e391 0%,#61c419 50%,#b4e391 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+}
+
+figure img {
+	height: 300px;	
+}
+
+
+	
+	
+
